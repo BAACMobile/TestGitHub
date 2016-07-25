@@ -6,13 +6,21 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/template-blank-cordova-ad-project/sample.zip",
       "projectGuid": "e69e6195-7adf-4d35-b4a7-dfb2e2c159d2",
-      "lastModifiedDate": 1469414975593,
+      "lastModifiedDate": 1469416278709,
       "creationDate": 1469414961811
     },
     "XDK-app-designer": "true",
     "sourceDirectory": "www",
     "startFile": "index.html",
-    "projectFiles": {},
+    "projectFiles": {
+      "xdk-publish-meta-data.json": {
+        "settings": {
+          "project": {
+            "XDK-not-deployed": "True"
+          }
+        }
+      }
+    },
     "projectDirectories": {},
     "libraries": [],
     "serviceMethods": [],
@@ -105,7 +113,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "certificateId_": "",
+        "certificateId_": "1VPxmTQ8tUygfvWl2HsK3A2",
         "cordovaCLIVersion_": "5.4.1",
         "crosswalkVersion_": "18",
         "appVersion_": "0.0.1",
@@ -125,7 +133,7 @@
         "appName_": "TestGitHub1",
         "appID_": "xdk.intel.blank.ad.template",
         "appAccess_": {
-          "mode": "legacy",
+          "mode": "whitelist",
           "network": [
             "*"
           ],
@@ -139,7 +147,8 @@
             "itms:*",
             "itms-apps:*"
           ],
-          "navigation": []
+          "navigation": [],
+          "properties": {}
         },
         "icons_": [],
         "splashes_": [],
@@ -165,12 +174,13 @@
         "appName_": "TestGitHub1",
         "appID_": "xdk.intel.blank.ad.template",
         "appAccess_": {
-          "mode": "legacy",
+          "mode": "whitelist",
           "network": [
             "*"
           ],
           "intents": [],
-          "navigation": []
+          "navigation": [],
+          "properties": {}
         },
         "icons_": [],
         "splashes_": [],
