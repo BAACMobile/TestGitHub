@@ -283,64 +283,6 @@ input.toggle + label:after {
 body#afui .splt {
   width: 200px;
 }
-.bar > .buttons .d-margins {
-  margin: auto;
-}
-.bar {
-  z-index: 1;
-}
-.upage-outer.fixed-header-footer {
-  position: static;
-}
-.vertical-col > ion-list.widget,
-.vertical-col > .widget.item-radio,
-.vertical-col > .widget.item-toggle,
-.vertical-col > .widget.list,
-.vertical-col > .widget.item-select,
-.vertical-col > .widget.item-checkbox,
-.vertical-col > .widget.button {
-  margin-left: 0;
-  display: inline-block;
-  width: 100%;
-}
-.vertical-col > .widget.item.range,
-.vertical-col > .widget.button-bar,
-.vertical-col > .widget.tabs {
-  margin-left: 0;
-  width: 100%;
-}
-.vertical-col > .widget.item-input {
-  margin-left: 0;
-  display: inline-flex;
-  width: 100%;
-}
-.vertical-col > .widget.item-input.item-floating-label,
-.vertical-col > .widget.item-input.item-stacked-label {
-  margin-left: 0;
-  display: inline-block;
-  width: 100%;
-}
-.list .d-margins,
-.button-bar .d-margins,
-.tabs .d-margins {
-  margin: 0;
-}
-@media all {
-  .wrapping-col > .d-margins,
-  .wrapping-col > .afScrollPanel > .d-margins {
-    margin-left: 6px;
-    margin-right: 6px;
-  }
-  .wrapping-col > .d-margins,
-  .wrapping-col > .afScrollPanel > .d-margins {
-    margin-left: 6px;
-    margin-right: 6px;
-  }
-  .d-margins {
-    margin-top: 5px;
-    margin-bottom: 16px;
-  }
-}
 .uib-grid {
   display: -webkit-flex;
   display: -moz-flex;
@@ -465,98 +407,40 @@ body#afui .splt {
 }
 @media all {
   .grid-height {
-    min-height: 500px;
-  }
-}
-.left-receptacle {
-  float: left;
-}
-.right-receptacle {
-  float: right;
-}
-[data-uib="media/text"] p:first-of-type {
-  margin-top: 0px;
-}
-.ellipsis {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-}
-@media all {
-  .textalingcenter p {
-    color: #fdfbf3;
-    text-align: center;
+    height: 50vh;
   }
 }
 @media all {
-  .btnPin {
-    height: 50%  !important;
-    width: 50%  !important;
-    border-radius: 0px !important;
+  .wrapping-col > .d-margins,
+  .wrapping-col > .afScrollPanel > .d-margins,
+  .vertical-col > .d-margins,
+  .vertical-col > .afScrollPanel > .d-margins {
+    margin-left: 6px;
+    margin-right: 6px;
   }
-}
-@media all {
-  .bg {
-    background-color: #000000;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  .wrapping-col > .d-margins,
+  .wrapping-col > .afScrollPanel > .d-margins,
+  .vertical-col > .d-margins,
+  .vertical-col > .afScrollPanel > .d-margins {
+    margin-left: 6px;
+    margin-right: 6px;
   }
-}
-@media all {
-  .rdb {
-    height: 60px !important;
-    width: 60px !important;
-    border-radius: 100% !important;
+  .wrapping-col > .d-margins,
+  .wrapping-col > .afScrollPanel > .d-margins,
+  .vertical-col > .d-margins,
+  .vertical-col > .afScrollPanel > .d-margins {
+    margin-left: 6px;
+    margin-right: 6px;
   }
-}
-.uib-button-bar .d-margins {
-  margin: 0;
-}
-@media all {
-  .default-button-bar-height {
-    height: 200px;
+  .wrapping-col > .d-margins,
+  .wrapping-col > .afScrollPanel > .d-margins,
+  .vertical-col > .d-margins,
+  .vertical-col > .afScrollPanel > .d-margins {
+    margin-left: 6px;
+    margin-right: 6px;
   }
-}
-@media all {
-  .default-graphic-button {
-    border-radius: 5px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: grey;
-    background-color: #ffffff;
-  }
-}
-@media all {
-  .hover-graphic-button:hover {
-    border-radius: 5px;
-    background-color: #eeeeee;
-  }
-}
-@media all {
-  .active-graphic-button:active {
-    border-radius: 5px;
-    background-color: #dddddd;
-  }
-}
-@media all {
-  .default-graphic-text {
-    text-align: center;
-  }
-}
-@media all {
-  .default-graphic-sizing {
-    width: 150px !important;
-    -webkit-flex: 0 0 auto !important;
-    -moz-flex: 0 0 auto !important;
-    -ms-flex: 0 0 auto !important;
-    -o-flex: 0 0 auto !important;
-    flex: 0 0 auto !important;
-    padding: 5px;
-  }
-}
-@media all {
-  .default-image-sizing > img {
-    width: 50px;
+  .d-margins {
+    margin-top: 5px;
+    margin-bottom: 6px;
   }
 }
